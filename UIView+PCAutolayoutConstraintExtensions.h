@@ -31,14 +31,14 @@
 
 /*!
  *  @property heightConstraint The primary constraint responsible for the view's height.
- *  @discussion The constraint might be applied to the view's superview.s
+ *  @discussion The constraint might be applied to the view's superview.
  */
 @property (nonatomic, readonly) NSLayoutConstraint *heightConstraint;
 
 #pragma mark - Accessors
 /*!
  *  Returns the constraint with the given identifier.
- *  @param identifier The constraints identifier.
+ *  @param identifier The constraint's identifier.
  *  @result The constraint with the given identifier.
  */
 - (NSLayoutConstraint *)constraintWithIdentifier:(NSString *)identifier;

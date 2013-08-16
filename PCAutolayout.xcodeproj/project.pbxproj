@@ -44,6 +44,7 @@
 		733CDB5217BC105900949456 /* NSLayoutConstraint+PCAutolayoutIdentifierExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PCAutolayoutIdentifierExtensions.m"; sourceTree = "<group>"; };
 		733CDB5517BC15D500949456 /* UIView+PCAutolayoutBindingExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+PCAutolayoutBindingExtensions.h"; sourceTree = "<group>"; };
 		733CDB5617BC15D500949456 /* UIView+PCAutolayoutBindingExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+PCAutolayoutBindingExtensions.m"; sourceTree = "<group>"; };
+		733CDB8E17BE6AC400949456 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		736FA1D817ABF7C100600F75 /* PCAutolayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCAutolayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736FA1DB17ABF7C100600F75 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		736FA1DD17ABF7C100600F75 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -94,6 +95,7 @@
 		736FA1CF17ABF7C100600F75 = {
 			isa = PBXGroup;
 			children = (
+				733CDB8E17BE6AC400949456 /* README.md */,
 				733CDB5517BC15D500949456 /* UIView+PCAutolayoutBindingExtensions.h */,
 				733CDB5617BC15D500949456 /* UIView+PCAutolayoutBindingExtensions.m */,
 				733CDB5117BC105900949456 /* NSLayoutConstraint+PCAutolayoutIdentifierExtensions.h */,

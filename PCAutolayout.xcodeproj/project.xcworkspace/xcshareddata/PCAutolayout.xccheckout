@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>36FED184-A064-4ABA-BD2E-994773FA29AB</string>
+	<key>IDESourceControlProjectName</key>
+	<string>PCAutolayout</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>22BE8CAD-78A5-4CC1-B77E-E2D246472968</key>
+		<string>https://github.com/pcperini/PCAutolayout</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>PCAutolayout.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>22BE8CAD-78A5-4CC1-B77E-E2D246472968</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/pcperini/PCAutolayout</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>22BE8CAD-78A5-4CC1-B77E-E2D246472968</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>22BE8CAD-78A5-4CC1-B77E-E2D246472968</string>
+			<key>IDESourceControlWCCName</key>
+			<string>PCAutolayout</string>
+		</dict>
+	</array>
+</dict>
+</plist>
