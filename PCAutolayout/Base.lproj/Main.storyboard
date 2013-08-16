@@ -44,6 +44,11 @@
                             <constraint firstItem="XQE-Bd-CGD" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="20" id="FLn-kf-d9E"/>
                             <constraint firstItem="XQE-Bd-CGD" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="52" id="Rue-wI-s3I"/>
                             <constraint firstItem="YBa-dq-cLJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="52" id="WPd-RM-llN"/>
+                            <constraint firstItem="Wa4-5Q-bi8" firstAttribute="top" relation="lessThanOrEqual" secondItem="XQE-Bd-CGD" secondAttribute="bottom" priority="991" constant="442" id="awm-Iz-4L3">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="identifier" value="maxSpaceFromBottomConstraint"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
                             <constraint firstItem="YBa-dq-cLJ" firstAttribute="top" secondItem="XQE-Bd-CGD" secondAttribute="bottom" constant="29" id="gOI-8v-OMX"/>
                         </constraints>
                     </view>

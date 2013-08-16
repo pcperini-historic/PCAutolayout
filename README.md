@@ -105,3 +105,10 @@ The constraint with the given identifier.
     @property (nonatomic) NSString *identifier;
 
 A string identifying the constraint.
+
+## User-Defined Attributes ##
+
+You can use Interface Builder's User-Defined Attributes to set the identifier of a constraint.
+
+![](http://i.imgur.com/NU2O0GR.png)
+
