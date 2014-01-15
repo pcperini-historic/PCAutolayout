@@ -31,7 +31,7 @@
     NSMutableArray *constraints = [[self constraints] mutableCopy];
     [constraints addObjectsFromArray: [[self superview] constraints]];
     
-    NSInteger highestConstraintPriority = INT_MIN;
+    NSInteger highestConstraintPriority = FLT_MIN;
     NSLayoutConstraint *bestFittingConstraint;
     for (NSLayoutConstraint *constraint in constraints)
     {
@@ -51,11 +51,24 @@
         
         for (NSInteger attributeIndex = 0; attributeIndex < count; attributeIndex++)
         {
+            NSLayoutConstraint *likelyBestFittingConstraint;
             NSLayoutAttribute attribute = attributes[attributeIndex];
-            if ((layoutAttribute == attribute) && ([constraint priority] >= highestConstraintPriority))
+            if ((layoutAttribute == attribute) && ([constraint priority] > highestConstraintPriority))
             {
-                bestFittingConstraint = constraint;
+                likelyBestFittingConstraint = constraint;
             }
+            
+            if (!likelyBestFittingConstraint)
+                continue;
+            
+            BOOL constraintItemIsSingleton = (![constraint firstItem] != ![constraint secondItem]); // firstItem xor secondItem
+            BOOL bestFittingConstraintItemIsSingleton = (![bestFittingConstraint firstItem] != ![bestFittingConstraint secondItem]); // firstItem xor secondItem
+            
+            if (bestFittingConstraintItemIsSingleton && !constraintItemIsSingleton) // Prefer when items are singletons
+                continue;
+            
+            bestFittingConstraint = likelyBestFittingConstraint;
+            highestConstraintPriority = [constraint priority];
         }
     }
     

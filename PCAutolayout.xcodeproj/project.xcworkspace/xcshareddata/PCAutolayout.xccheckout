@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>36FED184-A064-4ABA-BD2E-994773FA29AB</string>
+	<string>D780997D-327B-4873-A507-6F9D85AF54B5</string>
 	<key>IDESourceControlProjectName</key>
 	<string>PCAutolayout</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>22BE8CAD-78A5-4CC1-B77E-E2D246472968</key>
-		<string>https://github.com/pcperini/PCAutolayout</string>
+		<key>39FE9F35-B423-493A-A5A5-F7F4FE015594</key>
+		<string>https://github.com/pcperini/PCAutolayout.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>PCAutolayout.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>22BE8CAD-78A5-4CC1-B77E-E2D246472968</key>
+		<key>39FE9F35-B423-493A-A5A5-F7F4FE015594</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/pcperini/PCAutolayout</string>
+	<string>https://github.com/pcperini/PCAutolayout.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>22BE8CAD-78A5-4CC1-B77E-E2D246472968</string>
+	<string>39FE9F35-B423-493A-A5A5-F7F4FE015594</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>22BE8CAD-78A5-4CC1-B77E-E2D246472968</string>
+			<string>39FE9F35-B423-493A-A5A5-F7F4FE015594</string>
 			<key>IDESourceControlWCCName</key>
 			<string>PCAutolayout</string>
 		</dict>
