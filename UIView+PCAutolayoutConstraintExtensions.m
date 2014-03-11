@@ -9,7 +9,7 @@
 #import "UIView+PCAutolayoutConstraintExtensions.h"
 #import "NSLayoutConstraint+PCAutolayoutIdentifierExtensions.h"
 
-@interface UIView (PCAutolayoutCOnstraintPrivateExtensions)
+@interface UIView (PCAutolayoutConstraintPrivateExtensions)
 
 #pragma mark - Accessors
 /*!
@@ -32,7 +32,7 @@
     [constraints addObjectsFromArray: [[self superview] constraints]];
     
     NSInteger highestConstraintPriority = FLT_MIN;
-    NSLayoutConstraint *bestFittingConstraint;
+    NSLayoutConstraint *bestFittingConstraint = nil;
     for (NSLayoutConstraint *constraint in constraints)
     {
         NSLayoutAttribute layoutAttribute;
@@ -51,7 +51,7 @@
         
         for (NSInteger attributeIndex = 0; attributeIndex < count; attributeIndex++)
         {
-            NSLayoutConstraint *likelyBestFittingConstraint;
+            NSLayoutConstraint *likelyBestFittingConstraint = nil;
             NSLayoutAttribute attribute = attributes[attributeIndex];
             if ((layoutAttribute == attribute) && ([constraint priority] > highestConstraintPriority))
             {
